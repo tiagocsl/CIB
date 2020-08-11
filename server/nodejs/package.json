@@ -1,0 +1,42 @@
+{
+  "name": "CIB",
+  "version": "3.0",
+  "homepage": "http://google.com",
+  "author": "Tiago Castro <teagocastrusl@gmail.com> (https://google.com)",
+  "description": "Projeto com objetivo de autenticar/autorizar usuários a partir de Tags RFID utilizando Banco de Dados",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaszuqueto/esp8266-rfid-banco-de-dados"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "nodemcu",
+    "rfid",
+    "python",
+    "nodejs",
+    "web-app",
+    "mysql",
+    "mqtt",
+    "websockets",
+    "api",
+    "docker"
+  ],
+  "scripts": {
+    "prod": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mqtt": "^3.0.0",
+    "mysql": "^2.17.1",
+    "promise": "^8.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "semver": "^6.3.0",
+    "sequelize": "^5.21.2"
+  }
+}
